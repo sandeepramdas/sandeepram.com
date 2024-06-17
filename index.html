@@ -1,67 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/home.css" />
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-<div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
-        <div class="set">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/Sandeep.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - No Code Solutions Architect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="intro">
+            <img src="your-photo.jpg" alt="Your Photo">
+            <h1>Hi, I'm [Your Name]</h1>
+            <p>A No Code Solutions Architect at Quixy.</p>
         </div>
-    </div>
-   
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
-        <div class="set">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/Sandeep.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+        <div class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Add project details here -->
+            </div>
         </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
-        <div class="set">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/Sandeep.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+        <a href="#projects" class="btn">Learn more about my work</a>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Detailed bio and career highlights...</p>
+        <h3>Core Competencies</h3>
+        <ul>
+            <li>Low Code Solutions</li>
+            <li>Finance Solutions</li>
+            <li>Design Standards</li>
+            <li>Governance Standards</li>
+            <li>Training and Webinars</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Add detailed project information here -->
         </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-3">
-        <div class="set">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/Sandeep.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Low Code - Queries</li>
+            <li>Design Standards</li>
+            <li>Governance Standards</li>
+            <li>Review of Designs of all projects</li>
+            <li>Road Map and Priority Features</li>
+            <li>Product Bugs and Product Release Cycle</li>
+            <li>New Feature Requests</li>
+            <li>Comparative Analysis</li>
+            <li>Trainings and Webinars</li>
+            <li>Payment Gateway Integrations</li>
+            <li>HRMS</li>
+        </ul>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-list">
+            <!-- Add blog entries here -->
         </div>
-    </div>
-</div>
-
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
-  </body>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>CDBA Certification and other relevant certifications...</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-media">
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.twitter.com">Twitter</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
